@@ -44,9 +44,9 @@ public class CalculadoraTest {
     public void testSumar() {
         System.out.println("Sumar");
         Calculadora instance = new Calculadora(8,2);
-        int expResult = 10;
-        int result = instance.Sumar();
-        assertEquals(expResult, result);
+        //int expResult = 10;
+        //int result = instance.Sumar();
+        assertTrue(instance.Sumar()== 10);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
