@@ -43,12 +43,12 @@ public class CalculadoraTest {
     @Test
     public void testSumar() {
         System.out.println("Sumar");
-        Calculadora instance = new Calculadora();
-        int expResult = 0;
+        Calculadora instance = new Calculadora(8,2);
+        int expResult = 10;
         int result = instance.Sumar();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -57,12 +57,12 @@ public class CalculadoraTest {
     @Test
     public void testRestar() {
         System.out.println("Restar");
-        Calculadora instance = new Calculadora();
-        int expResult = 0;
+        Calculadora instance = new Calculadora(3,2);
+        int expResult = 1;
         int result = instance.Restar();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -71,12 +71,12 @@ public class CalculadoraTest {
     @Test
     public void testMultiplicar() {
         System.out.println("Multiplicar");
-        Calculadora instance = new Calculadora();
-        int expResult = 0;
+        Calculadora instance = new Calculadora(5,2);
+        int expResult = 10;
         int result = instance.Multiplicar();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -85,12 +85,12 @@ public class CalculadoraTest {
     @Test
     public void testDividir() {
         System.out.println("Dividir");
-        Calculadora instance = new Calculadora();
-        int expResult = 0;
+        Calculadora instance = new Calculadora(10,2);
+        int expResult = 5;
         int result = instance.Dividir();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }
